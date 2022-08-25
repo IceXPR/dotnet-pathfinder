@@ -1,4 +1,4 @@
-# DOTNET-PATHFINDER
+# dotnet-pathfinder
 
 An C# sample function to find the route given an array providing the passage where 0 is blocked and 1 is drivible.  The route starts at 0,0 and ends on 2,2.
 
