@@ -2,11 +2,8 @@
 
 public class Pathfinder
 {
-
   public int findPaths(int[,] street, int start_i, int start_j, int acc)
-
   {
-
     for (int i = start_i; i < street.GetLength(0); i++) // iterate horizontal
     { 
       for (int j = start_j; j < street.GetLength(1); j++)  // iterate vertical
@@ -27,6 +24,7 @@ public class Pathfinder
     }
     return acc;
   }
+  
   public static void Main()
   {
     int[,] map0 = new int[3, 3] { { 1, 1, 1 }, { 1, 0, 1 }, { 1, 1, 1 } };
